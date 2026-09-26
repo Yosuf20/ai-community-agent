@@ -1,0 +1,374 @@
+{
+  "methods": [
+    {
+      "method_uuid": "",
+      "method_name": "Add a sticker to a bot-created set",
+      "canonical_id": "telegram_v5_0.addstickertoset.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Change a chat's title as an admin",
+      "canonical_id": "telegram_v5_0.setchattitle.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Clear all pinned messages from a chat",
+      "canonical_id": "telegram_v5_0.unpinallchatmessage.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Close the bot instance before moving it",
+      "canonical_id": "telegram_v5_0.close.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Copy messages without a link to the original",
+      "canonical_id": "telegram_v5_0.copymessage.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Create a new sticker set for a user",
+      "canonical_id": "telegram_v5_0.createnewstickerset.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Delete a chat photo",
+      "canonical_id": "telegram_v5_0.deletechatphoto.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Delete a message within 48 hours of sending",
+      "canonical_id": "telegram_v5_0.deletemessage.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Delete a sticker from a bot-created set",
+      "canonical_id": "telegram_v5_0.deletestickerfromset.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Delete a sticker set from a supergroup",
+      "canonical_id": "telegram_v5_0.deletechatstickerset.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Edit a live location message",
+      "canonical_id": "telegram_v5_0.editmessagelivelocation.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Edit media in a message",
+      "canonical_id": "telegram_v5_0.editmessagemedia.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Edit message captions",
+      "canonical_id": "telegram_v5_0.editmessagecaption.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Edit message reply markup",
+      "canonical_id": "telegram_v5_0.editmessagereplymarkup.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Edit text or game messages",
+      "canonical_id": "telegram_v5_0.editmessagetext.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Fetch incoming updates via long polling",
+      "canonical_id": "telegram_v5_0.getupdate.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Forward messages of any kind",
+      "canonical_id": "telegram_v5_0.forwardmessage.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Generate a new invite link for a chat",
+      "canonical_id": "telegram_v5_0.exportchatinvitelink.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Get a list of chat administrators",
+      "canonical_id": "telegram_v5_0.getchatadministrator.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Get a sticker set",
+      "canonical_id": "telegram_v5_0.getstickerset.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Get a user's game high scores and their neighbors",
+      "canonical_id": "telegram_v5_0.getgamehighscore.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Get basic info about the bot",
+      "canonical_id": "telegram_v5_0.getme.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Get current webhook status",
+      "canonical_id": "telegram_v5_0.getwebhookinfo.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Get file info and prepare for download",
+      "canonical_id": "telegram_v5_0.getfile.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Get information about a chat member",
+      "canonical_id": "telegram_v5_0.getchatmember.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Get the bot's current list of commands",
+      "canonical_id": "telegram_v5_0.getmycommand.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Get the number of members in a chat",
+      "canonical_id": "telegram_v5_0.getchatmemberscount.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Get up-to-date chat information",
+      "canonical_id": "telegram_v5_0.getchat.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Kick a user from a group, supergroup, or channel",
+      "canonical_id": "telegram_v5_0.kickchatmember.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Leave a group, supergroup, or channel",
+      "canonical_id": "telegram_v5_0.leavechat.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Log out from the cloud Bot API server",
+      "canonical_id": "telegram_v5_0.logout.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Notify user about errors in Telegram Passport data",
+      "canonical_id": "telegram_v5_0.setpassportdataerror.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Pin a message to a chat",
+      "canonical_id": "telegram_v5_0.pinchatmessage.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Promote or demote a user in a group or channel",
+      "canonical_id": "telegram_v5_0.promotechatmember.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Remove webhook integration",
+      "canonical_id": "telegram_v5_0.deletewebhook.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Reorder stickers within a bot-created set",
+      "canonical_id": "telegram_v5_0.setstickerpositioninset.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Reply to shipping queries with shipping options",
+      "canonical_id": "telegram_v5_0.answershippingquery.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Respond to inline keyboard callback queries",
+      "canonical_id": "telegram_v5_0.answercallbackquery.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Respond to pre-checkout queries with success or failure",
+      "canonical_id": "telegram_v5_0.answerprecheckoutquery.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Restrict a user in a supergroup",
+      "canonical_id": "telegram_v5_0.restrictchatmember.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Retrieve a user's profile photos",
+      "canonical_id": "telegram_v5_0.getuserprofilephoto.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send a dice emoji with a random value",
+      "canonical_id": "telegram_v5_0.senddice.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send a game to a chat",
+      "canonical_id": "telegram_v5_0.sendgame.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send a group of media files as an album",
+      "canonical_id": "telegram_v5_0.sendmediagroup.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send a location point on the map",
+      "canonical_id": "telegram_v5_0.sendlocation.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send a native poll",
+      "canonical_id": "telegram_v5_0.sendpoll.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send a photo to a chat",
+      "canonical_id": "telegram_v5_0.sendphoto.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send a typing or upload status to the user",
+      "canonical_id": "telegram_v5_0.sendchataction.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send an invoice to a user",
+      "canonical_id": "telegram_v5_0.sendinvoice.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send animation files like GIFs or videos without sound",
+      "canonical_id": "telegram_v5_0.sendanimation.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send answers to an inline query",
+      "canonical_id": "telegram_v5_0.answerinlinequery.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send audio files as playable voice messages",
+      "canonical_id": "telegram_v5_0.sendvoice.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send audio files to Telegram clients",
+      "canonical_id": "telegram_v5_0.sendaudio.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send general files up to 50MB",
+      "canonical_id": "telegram_v5_0.senddocument.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send phone contacts to a chat",
+      "canonical_id": "telegram_v5_0.sendcontact.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send static or animated stickers to a chat",
+      "canonical_id": "telegram_v5_0.sendsticker.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send text messages and get the sent message on success",
+      "canonical_id": "telegram_v5_0.sendmessage.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send venue information to a chat",
+      "canonical_id": "telegram_v5_0.sendvenue.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send video files to a chat",
+      "canonical_id": "telegram_v5_0.sendvideo.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Send video notes to a chat",
+      "canonical_id": "telegram_v5_0.sendvideonote.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Set a custom admin title in a supergroup",
+      "canonical_id": "telegram_v5_0.setchatadministratorcustomtitle.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Set a new profile photo for a chat",
+      "canonical_id": "telegram_v5_0.setchatphoto.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Set a new sticker set for a supergroup chat",
+      "canonical_id": "telegram_v5_0.setchatstickerset.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Set a user's score in a game",
+      "canonical_id": "telegram_v5_0.setgamescore.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Set default chat permissions for all members",
+      "canonical_id": "telegram_v5_0.setchatpermission.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Set or update the bot's available commands",
+      "canonical_id": "telegram_v5_0.setmycommand.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Set the thumbnail for a sticker set",
+      "canonical_id": "telegram_v5_0.setstickersetthumb.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Set webhook URL to receive bot updates",
+      "canonical_id": "telegram_v5_0.setwebhook.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Stop a poll and retrieve its final results",
+      "canonical_id": "telegram_v5_0.stoppoll.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Stop live location updates for a message",
+      "canonical_id": "telegram_v5_0.stopmessagelivelocation.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Unban a user from a supergroup or channel",
+      "canonical_id": "telegram_v5_0.unbanchatmember.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Unpin a message from a chat",
+      "canonical_id": "telegram_v5_0.unpinchatmessage.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Update a chat's description",
+      "canonical_id": "telegram_v5_0.setchatdescription.create"
+    },
+    {
+      "method_uuid": "",
+      "method_name": "Upload a PNG sticker file for use in sticker sets",
+      "canonical_id": "telegram_v5_0.uploadstickerfile.create"
+    }
+  ]
+}

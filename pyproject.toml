@@ -1,0 +1,20 @@
+[project]
+name = "swytchcode"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Yosuf20", email = "jyosuf6@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "groq>=0.30.0",
+]
+
+[project.scripts]
+swytchcode = "swytchcode:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"

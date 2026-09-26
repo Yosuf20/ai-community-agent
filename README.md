@@ -5,7 +5,7 @@ members need, and takes action — logging issues in Notion, notifying the team 
 Slack, and escalating via email through Resend — using **LangGraph** for agentic
 orchestration and **Swytchcode APIs** for every real-world action.
 
-See [`ARCHITECTURE.md`](./ARCHITECTURE.md) for the full flow diagram.
+See [`ARCHITECTURE.md`](./communityagent/ARCHITECTURE.md) for the full flow diagram.
 
 ## Stack
 

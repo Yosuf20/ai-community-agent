@@ -6,6 +6,13 @@ Slack, and escalating via email through Resend — using **LangGraph** for agent
 orchestration and **Swytchcode APIs** for every real-world action.
 
 
+## Stack
+
+- **Agent framework:** LangGraph (ReAct-style reasoning ⇄ tool-execution loop)
+- **LLM:** Groq API
+- **Backend:** FastAPI
+- **Integrations (Swytchcode APIs):** Telegram, Slack, Notion, Resend
+
 # Architecture — AI Community Agent (Track 3)
 
 ```mermaid
@@ -54,12 +61,6 @@ requirement.
 | `agent/tools.py` | Swytchcode API wrappers (Telegram, Slack, Notion, Resend) |
 | `static/index.html` | Interactive live-demo UI showing each reasoning/tool step |
 
-## Stack
-
-- **Agent framework:** LangGraph (ReAct-style reasoning ⇄ tool-execution loop)
-- **LLM:** Groq API
-- **Backend:** FastAPI
-- **Integrations (Swytchcode APIs):** Telegram, Slack, Notion, Resend
 
 ## Setup
 

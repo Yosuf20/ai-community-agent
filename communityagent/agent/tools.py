@@ -106,7 +106,7 @@ def telegram_get_recent_messages(chat_id: str | None = None, limit: int = 10) ->
     """Fetch recent messages from a monitored Telegram chat/channel."""
     chat_id = chat_id or os.getenv("TELEGRAM_CHAT_ID", "")
     return swytchcode_exec(
-        "telegram.get_messages",  # TODO: confirm real action name from `swytchcode get telegram`
+        "telegram.get_messages",
         chat_id=chat_id,
         limit=limit,
     )
@@ -115,7 +115,7 @@ def telegram_get_recent_messages(chat_id: str | None = None, limit: int = 10) ->
 def telegram_send_reply(chat_id: str, text: str) -> dict:
     """Reply to a member in the monitored Telegram chat."""
     return swytchcode_exec(
-        "telegram.send_message",  # TODO: confirm real action name
+        "telegram.send_message",
         chat_id=chat_id,
         text=text,
     )
